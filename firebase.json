@@ -1,0 +1,16 @@
+{
+  "hosting": [
+    {
+      "target": "japan",
+      "public": "pub",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ]
+    }
+  ],
+  "storage": {
+    "rules": "storage.rules"
+  }
+}

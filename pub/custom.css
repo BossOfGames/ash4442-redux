@@ -1,0 +1,12 @@
+p {
+    text-indent: 1rem;
+}
+.img-title {
+    color: white;
+    background: rgba(25,25,25,.75);
+    display: inline-flex;
+    padding: 0 5px;
+}
+body {
+    background: #333;
+}
