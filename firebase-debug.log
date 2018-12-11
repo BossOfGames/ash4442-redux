@@ -1,24 +1,29 @@
-[debug] [2018-12-06T04:59:45.757Z] ----------------------------------------------------------------------
-[debug] [2018-12-06T04:59:45.759Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
-[debug] [2018-12-06T04:59:45.759Z] CLI Version:   4.2.1
-[debug] [2018-12-06T04:59:45.759Z] Platform:      darwin
-[debug] [2018-12-06T04:59:45.759Z] Node Version:  v11.0.0
-[debug] [2018-12-06T04:59:45.760Z] Time:          Wed Dec 05 2018 23:59:45 GMT-0500 (Eastern Standard Time)
-[debug] [2018-12-06T04:59:45.760Z] ----------------------------------------------------------------------
+[debug] [2018-12-10T02:24:06.890Z] ----------------------------------------------------------------------
+[debug] [2018-12-10T02:24:06.892Z] Command:       /usr/local/bin/node /usr/local/bin/firebase serve
+[debug] [2018-12-10T02:24:06.892Z] CLI Version:   6.1.2
+[debug] [2018-12-10T02:24:06.892Z] Platform:      darwin
+[debug] [2018-12-10T02:24:06.892Z] Node Version:  v11.0.0
+[debug] [2018-12-10T02:24:06.899Z] Time:          Sun Dec 09 2018 21:24:06 GMT-0500 (Eastern Standard Time)
+[debug] [2018-12-10T02:24:06.900Z] ----------------------------------------------------------------------
 [debug] 
-[debug] [2018-12-06T04:59:45.770Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
-[debug] [2018-12-06T04:59:45.770Z] > authorizing via signed-in user
-[debug] [2018-12-06T04:59:45.773Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/taylorbroad-com  
+[debug] [2018-12-10T02:24:06.918Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-12-10T02:24:06.918Z] > authorizing via signed-in user
+[debug] [2018-12-10T02:24:06.918Z] [iam] checking project taylorbroad-com for permissions ["firebase.projects.get"]
+[debug] [2018-12-10T02:24:06.920Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-12-10T02:24:06.921Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2018-12-10T02:24:07.099Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-10T02:24:07.116Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/taylorbroad-com:testIamPermissions  
+
+[debug] [2018-12-10T02:24:10.337Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-10T02:24:10.338Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/taylorbroad-com  
  
-[debug] [2018-12-06T04:59:46.088Z] <<< HTTP RESPONSE 200
-[debug] [2018-12-06T04:59:46.089Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/taylorbroad-com  
- 
-[debug] [2018-12-06T04:59:46.348Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-10T02:24:10.496Z] <<< HTTP RESPONSE 200
 [info] 
 [info] === Serving from '/Users/taylorbroad/ash4442-redux'...
 [info] 
-[debug] [2018-12-06T04:59:46.350Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/786588945521/clients/_:getWebAppConfig  
+[debug] [2018-12-10T02:24:10.497Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/786588945521/clients/_:getWebAppConfig  
  
-[debug] [2018-12-06T04:59:46.613Z] <<< HTTP RESPONSE 200
+[debug] [2018-12-10T02:24:10.854Z] <<< HTTP RESPONSE 200
 [info] i  hosting[japan]: Serving hosting files from: pub
 [info] ✔  hosting[japan]: Local server: http://localhost:5000
