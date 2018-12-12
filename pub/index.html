@@ -4,17 +4,26 @@
     <meta charset="UTF-8">
     <title>Who is Japanese | Home</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="stylesheet" href="custom.css">
 </head>
 <body>
-<nav>
-    <div class="nav-wrapper">
-        <a href="#" class="brand-logo" style="padding-left: 1rem;">Who is Japanese</a>
-        <ul id="nav-mobile" class="right hide-on-med-and-down">
-        </ul>
-    </div>
-</nav>
+<div class="navbar-fixed">
+    <nav class="red darken-4">
+        <div class="nav-wrapper">
+            <a href="index.html" class="brand-logo" style="padding-left: 1rem;">Who Is Japanese<span style="font-size: 14px;padding-left: 5px;">A Project By Taylor Broad</span> </a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a href="tokugawa.html">Tokugawa Era</a></li>
+                <li><a href="empire.html">Meiji Restoration & Empire</a></li>
+                <li><a href="war.html">The Pacific War</a></li>
+                <li><a href="postwar.html">Post-War Reconstruction</a></li>
+                <li><a href="today.html">Today</a></li>
+                <li><a href="references.html">Full Reference Sheet</a></li>
+            </ul>
+        </div>
+    </nav>
+</div>
 <div class="home">
-    <div style="position: absolute; top: 0; z-index: -50;background: top no-repeat url('/img/Torii.svg'); background-size: cover; height: 100vh; width: 100vw;">
+    <div style="position: absolute; top: 0; z-index: -50;background: top no-repeat url('/img/Torii.svg') black; background-size: cover; height: 100vh; width: 100vw;">
 
     </div>
     <div class="container grey darken-4 z-depth-4 white-text" style="position: relative; top: 30vh; padding: 2rem 4rem;">
@@ -29,14 +38,14 @@
             <div class="col l6 s12">
                 <div class="card horizontal grey darken-3">
                     <div class="card-image">
-                        <div style="background: center no-repeat url('/tokugawa_cover.jpg'); background-size: cover; height: 190px; width:120px"></div>
+                        <div style="background: center no-repeat url('/img/tokugawa_cover.jpg'); background-size: cover; height: 190px; width:120px"></div>
                     </div>
                     <div class="card-stacked">
                         <div class="card-content">
                             <h4>The Tokugawa Era</h4>
                         </div>
                         <div class="card-action">
-                            <router-link to="/tokugawa"><a>Go To Article</a></router-link>
+                            <a href="tokugawa.html">Go To Article</a>
                         </div>
                     </div>
                 </div>
@@ -44,14 +53,14 @@
             <div class="col l6 s12">
                 <div class="card horizontal grey darken-3">
                     <div class="card-image">
-                        <img src="https://lorempixel.com/100/190/nature/6">
+                        <div style="background: center no-repeat url('/img/Gasshukoku_suishi_teitoku_kōjōgaki_(Oral_statement_by_the_American_Navy_admiral).png'); background-size: cover; height: 190px; width:120px"></div>
                     </div>
                     <div class="card-stacked">
                         <div class="card-content">
                             <h4>Revolution & Empire</h4>
                         </div>
                         <div class="card-action">
-                            <router-link to="/meiji"><a>Go To Article</a></router-link>
+                            <a href="empire.html">Go To Article</a>
                         </div>
                     </div>
                 </div>
@@ -61,14 +70,14 @@
             <div class="col l6 s12">
                 <div class="card horizontal grey darken-3">
                     <div class="card-image">
-                        <img src="https://lorempixel.com/100/190/nature/6">
+                        <div style="background: center no-repeat url('/img/02585.jpg'); background-size: cover; height: 190px; width:120px"></div>
                     </div>
                     <div class="card-stacked">
                         <div class="card-content">
-                            <h4>Post-Pacific War</h4>
+                            <h4>The Pacific War</h4>
                         </div>
                         <div class="card-action">
-                            <router-link to="/meiji"><a>Go To Article</a></router-link>
+                            <a href="war.html">Go To Article</a>
                         </div>
                     </div>
                 </div>
@@ -76,14 +85,29 @@
             <div class="col l6 s12">
                 <div class="card horizontal grey darken-3">
                     <div class="card-image">
-                        <img src="https://lorempixel.com/100/190/nature/6">
+                        <div style="background: center no-repeat url('/img/25693634378_3758a03ac1_k.jpg'); background-size: cover; height: 190px; width:120px"></div>
+                    </div>
+                    <div class="card-stacked">
+                        <div class="card-content">
+                            <h4>Post-War Rebuild</h4>
+                        </div>
+                        <div class="card-action">
+                            <a href="postwar.html">Go To Article</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col l6 s12">
+                <div class="card horizontal grey darken-3">
+                    <div class="card-image">
+                        <div style="background: center no-repeat url('/img/4d60d8f8f60443ef8bb01a55528ebfb4_18.jpg'); background-size: cover; height: 190px; width:120px"></div>
                     </div>
                     <div class="card-stacked">
                         <div class="card-content">
                             <h4>Today</h4>
                         </div>
                         <div class="card-action">
-                            <router-link to="/meiji"><a>Go To Article</a></router-link>
+                            <a href="today.html">Go To Article</a>
                         </div>
                     </div>
                 </div>

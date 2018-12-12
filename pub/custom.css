@@ -9,6 +9,10 @@ p {
 .card-title {
     font-weight: bold !important;
 }
+.tooltipped {
+    vertical-align: super;
+    font-size: smaller;
+}
 .img-title {
     color: white;
     background: rgba(25,25,25,.75);
